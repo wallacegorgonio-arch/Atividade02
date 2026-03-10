@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    
+    <header id="header1">
+        <div class="header">
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#hero">WM Telefonia e informática</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/galeria_multimidia.html">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/sobre.html">SOBRE</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="d-flex justify-content-center align-items-center min-vh-100 w-100 ">
+
+        <div class="w-25">
+            <h1 class="h3 text-center">CADASTRO:</h1>
+
+            <form action="">
+                <div class="mb-3">
+                    <label class="form-label" for="username">nome do usuario</label>
+                    <div class="input-group">
+                        <span class="input-group-text">@</span>
+                        <input class="form-control" type="text" name="username" id="username">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">e-mail</label>
+                    <div class="input-group">
+                        <input class="form-control" type="email" name="email" id="email">
+                        <span class="input-group-text">@exemplo.com</span>
+                    </div>
+                    <div class="mb-3 ">
+                        <label class="form-label" for="sex">Genero</label>
+                         <select class="form-select" name="sex" id="sex">
+                         <option value="selecione um item" selected>selecione um item</option>
+                        <option value="homem cis">homem cis</option>
+                        <option value="mulher cis">mulher cis</option>
+                        <option value="homem trans">homem trans</option>
+                        <option value="mulher trans">mulher trans</option>
+                        <option value="outros">outros</option>
+                    </select>
+                    </div>
+                    <label class="form-label">escolha sua profissão</label>
+                    <div class="mb-3">
+                        
+                        <div class="form-check form-check-inline">
+                            <input class="form-input-check" type="radio" name="job" id="job1">
+                            <label class="form-label" for="job1">estudante</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-input-check" type="radio" name="job" id="job2">
+                            <label class="form-label" for="job2">engenheiro</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-input-check" type="radio" name="job" id="job3">
+                            <label class="form-label" for="job3">arquiteto</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-input-check" type="radio" name="job" id="job4">
+                            <label class="form-label" for="job4">professor</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-input-check" type="radio" name="job" id="job5">
+                            <label class="form-label" for="job5">desenvolvedor de software</label>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="senha">senha</label>
+                    <input class="form-control" type="password" name="senha" id="senha">
+                    <div class="form-text">A senha deve possuir no minimo 8 caractere</div>
+                    <div class="form-text">A senha deve conter letras maiusculas e minusculas</div>
+                </div>
+                <div class="mb-3 form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="checkbox" id="checkbox">
+                    <label class="form-label" for="checkbox">lembrar de mim:</label>
+                </div>
+                <button class="btn btn-primary  w-100">entrar</button>
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <footer id="rodape1">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#hero">WM Telefonia e informática</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/galeria_multimidia.html">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/cadastro.html">CADASTRO</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
